@@ -1,0 +1,98 @@
+.card{
+    border: solid 1px;
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    }
+
+    .h1{
+        text-align: center;
+        font-size:small;
+    }
+
+    .card h1{
+        text-align: center;
+    }
+
+    .card p{
+        text-align: center;
+        color: grey;
+    }
+
+    .button1{
+        background-color: orange;
+        color: white;
+        border-radius: 16px;
+        margin-left: 80px;
+        border: 7px solid orange;
+    }
+
+    .card2{
+        border: solid 1px;
+        width: 250px;
+        height: 300px;
+        border-radius: 8px;
+    }
+    
+    .h3{
+        text-align: center;
+        font-size: small;
+    }
+
+    .card2 h1{
+    text-align: center;}
+
+    .card2 p{
+        text-align: center;
+        color: grey;
+    }
+
+    .button2{
+        background-color: orange;
+        color: white;
+        border-radius: 16px;
+        margin-left: 80px;
+        border: 7px solid orange;
+
+    }
+
+    .card3{border: solid 1px;
+        width: 250px;
+        height: 300px;
+        border-radius: 8px;
+     }
+
+     .h2{
+        text-align: center;
+        font-size: small;
+        
+     }
+
+     .card3 h1{
+        text-align: center;
+
+     }
+
+     .card3 p{
+        text-align: center;
+        color: grey;
+     }
+
+     .button3{
+        background-color: orange;
+        color: white;
+        border-radius: 16px;
+        margin-left: 80px;
+        border: 7px solid orange;
+
+     }
+
+     .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 70px;
+        padding: 190px;
+        gap: 20px;
+     }
